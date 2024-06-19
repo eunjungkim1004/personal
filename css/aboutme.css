@@ -1,0 +1,37 @@
+main {
+  a: b;
+}
+
+#aboutme {
+  a: b;
+}
+#aboutme div.wrap {
+  a: b;
+}
+#aboutme div.wrap h2 {
+  a: b;
+}
+#aboutme div.wrap figure {
+  a: b;
+}
+#aboutme div.wrap figure img {
+  a: b;
+}
+#aboutme div.wrap figure figcaption {
+  a: b;
+}
+#aboutme div.wrap ul.intro {
+  a: b;
+}
+#aboutme div.wrap ul.intro li h3 {
+  a: b;
+}
+#aboutme div.wrap ul.intro li p {
+  a: b;
+}
+#aboutme div.wrap ul.info {
+  a: b;
+}
+#aboutme div.wrap ul.info li strong {
+  a: b;
+}
