@@ -1,0 +1,222 @@
+@media screen and (max-width:1200px){
+
+
+
+
+
+
+
+}
+
+/* 768------------------------------------------------------------------------------------------------------ */
+
+@media screen and (max-width:768px){
+  header div.wrap nav h1 a{
+  width: 140px;
+  }
+  div#title{
+    height: 100%;
+    max-width: initial;
+    min-height: 700px;
+  }
+  div#title div.wrap h2{
+    font-size: calc( 45px * 0.6);
+    padding: 0 10px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  div#title div.wrap p{
+  
+   font-size: calc((32px * 0.8)*0.7);
+  }
+  #aboutme::before{
+    font-size: calc(145px * 0.7);
+  }
+  div#title::after{
+    width: calc(50px * 0.7);
+    height: calc(100px * 0.7);
+    font-size: calc(13px*0.7);
+  }
+  header div.wrap nav ul.gnb{
+    display: none;
+  }
+  header div.wrap nav ul.enb{
+    display: none;
+  }
+  header div.wrap nav button.ham{
+    display: initial;
+    color: #fff;
+    background-image: url(../img/menu.svg);
+    background-position: center;
+    background-size: contain;
+    font-size: 0;
+    width: 35px;
+    height: 35px;
+  }
+  #aboutme div.wrap{  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #aboutme div.wrap figure img{
+    width: 100%;
+    height: 100%;
+  }
+  #aboutme div.wrap figure{  
+    width: 200px;
+    height: 200px;
+    margin-top: 200px;
+  }
+  #aboutme div.wrap ul.intro{
+    margin-top: 50px;
+    padding: 0 20px;
+    margin-bottom: 50px;
+  }
+  #aboutme div.wrap ul.intro li:nth-child(1) p{  
+    font-size: calc(24px * 0.7);
+  }
+  #aboutme div.wrap ul.intro li p{
+    width: calc(100% - 100px);
+    font-size: calc(14px * 0.8);
+  }
+  #aboutme div.wrap ul.intro li h3{
+  }
+.h6{
+   font-size: calc(16px * 0.9);
+  }
+  #aboutme{
+  height: auto;
+  min-height: auto;
+  }
+  #skill{
+  /*! margin-top: 50px; */
+  height: auto;
+  min-height: auto;
+  }
+  #portfolio{
+    
+  height: auto;
+  min-height: auto;
+  }
+  #contact::before{
+    font-size: calc(145px * 0.5);
+  }
+  #skill div.wrap ul.list{
+  display: flex;
+  flex-direction: column;
+  }
+  #skill div.wrap ul.list > li ul.sub{
+    
+  flex-wrap: wrap;
+  }
+  #aboutme div.wrap ul.info{
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 12px;
+  }
+  #aboutme div.wrap ul.info li{
+  }
+  #skill::before{
+    font-size: calc(145px * 0.5);
+  }
+  #portfolio div.wrap p{
+    font-size: calc(15px * 0.7);
+    padding-top: 100px;
+    padding: 0 20px;
+    margin-top: 100px;
+  }
+  #portfolio div.wrap ul{
+    
+    display: flex;
+    flex-direction: column;
+  }
+  #portfolio::before{
+    font-size: calc(145px * 0.5);
+  }
+  #process{
+    height: auto;
+    min-height: auto;
+  }
+  #process div.wrap{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    padding: 0 20px;
+  }
+  #process div.wrap ul{
+  }
+  #process div.wrap p{
+  }
+  #process div.wrap ul li{
+    height: 90px;
+    line-height: 1.4;
+    text-align: center;
+  }
+  #contact{
+    height: auto;
+    min-height: auto;
+  }
+  #skill div.wrap ul.list > li ul.sub li{
+    width: calc(100% / 3);
+  }
+  #skill div.wrap h2{
+    position: static;
+  }
+  #skill div.wrap ul.list > li:nth-child(2){
+    flex-direction: column;
+  }
+  
+  #contact div.wrap{  
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  #contact div.wrap > p{
+    margin-top: 140px; 
+    align-self: center;
+    padding-top: 50px;
+  }
+  #contact ul.sns{  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 30px;
+  }
+  #contact .sourcesite{  
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  footer div.wrap{
+    display: flex;
+    flex-direction: column;
+  }
+  footer div.wrap ul.fnb{
+    display: none;
+  }
+  footer div.wrap p{ 
+    padding: 20px;
+    font-size: calc(15px * 0.7);
+  }
+  footer div.wrap ul.sns{
+   padding:20px;
+  }
+  footer{
+    padding-top: 20px;
+  }
+  footer div.wrap h1 a{
+  }
+  footer div.wrap address{
+    display: none;
+  }
+  #skill div.wrap ul.list > li:nth-child(2){
+    
+  }
+  
+  
+  
+  
+  
+  
+}
