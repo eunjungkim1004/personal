@@ -29,13 +29,13 @@ ACCUNIQ https://pageservice.github.io/pf1/
 ![pf2](https://github.com/pageservice/personal/assets/71798491/1a7c723b-1e1b-4cb6-9f45-6b17b89482e9)
 ![pf1-어큐닉](https://github.com/pageservice/personal/assets/71798491/3e7a5d1c-3326-4ffc-ac79-3fe4a96fe6a3)
 ![pf4](https://github.com/pageservice/personal/assets/71798491/e8b59bed-76df-470c-8aec-71f580ab6cca)
-
-
 ![pf1-3](https://github.com/user-attachments/assets/f3ffbabb-145e-44f5-894e-edb35cce4a96)
-
+![pf2](https://github.com/user-attachments/assets/c527deb5-4a84-4107-8e17-0da5bdf05e47)
 ![pf3](https://github.com/user-attachments/assets/acab826b-5590-4ab3-a47b-e7c69871c4ff)
+![pf4](https://github.com/user-attachments/assets/d110c7b9-f15a-42ec-983f-e50d900320f7)
 
-![ww](https://github.com/pageservice/personal/assets/71798491/30c357e8-d39b-42e6-9c30-0db7706f73d4)
+
+
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left" style="white-space: pre-line; display: flex;">
