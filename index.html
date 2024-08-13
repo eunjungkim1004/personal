@@ -43,7 +43,54 @@
                 arrows:true,
                 fade:false
             });
-        });
+            var c1 =$("#aboutme").offset().top;
+            console.log(c1);
+            $("header div.wrap nav ul.gnb li:nth-child(1)").click(function(){
+                $("html,body").animate({scrollTop:c1},1000);
+                return false;
+            }); 
+            var c2 =$("#skill").offset().top;
+            console.log(c2);
+            $("header div.wrap nav ul.gnb li:nth-child(2)").click(function(){
+                $("html,body").animate({scrollTop:c2},1000);
+                return false;
+            });  
+            var c3 =$("#portfolio").offset().top;
+            console.log(c3);
+            $("header div.wrap nav ul.gnb li:nth-child(3)").click(function(){
+                $("html,body").animate({scrollTop:c3},1000);
+                return false;
+            });   
+            var c4 =$("#process").offset().top;
+            console.log(c4);
+            $("header div.wrap nav ul.gnb li:nth-child(4)").click(function(){
+                $("html,body").animate({scrollTop:c4},1000);
+                return false;
+            });  
+            var c5 =$("#contact").offset().top;
+            console.log(c5);
+            $("header div.wrap nav ul.gnb li:nth-child(5)").click(function(){
+                $("html,body").animate({scrollTop:c5},1000);
+                return false;
+            });  
+            //top버튼 추가하기
+            $('footer').prepend('<a href="#" class="top">Top</a>');
+            $("footer a.top").click(function(){//문서 오픈시 한번만 실행된다. 
+                $("html,body").animate({scrollTop:0},1500);
+            });
+             // 창이 스크롤 되면 실행하시오.
+             var menuT = $("footer a.top").offset().top;
+             var ws;$(window).scrollTop();
+            $("footer a.top").scroll(function(){//scroll은 스크롤 때마다 연속적으로 발생한다.
+                ws=$(window).scrollTop();
+                if(ws>menuT){
+                    $("footer a.top").addClass('fixed');   
+                }
+                if(ws<menuT){
+                    $("footer a.top").removeClass('fixed');   
+                }
+            });
+         });
     </script> 
 </head>
 <body>
