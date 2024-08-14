@@ -73,6 +73,37 @@
                 $("html,body").animate({scrollTop:c5},1000);
                 return false;
             });  
+            // 하단부분 연결 //
+            var c1 =$("#aboutme").offset().top;
+            console.log(c1);
+            $("footer div.wrap ul.fnb li:nth-child(1)").click(function(){
+                $("html,body").animate({scrollTop:c1},1000);
+                return false;
+            }); 
+            var c2 =$("#skill").offset().top;
+            console.log(c2);
+            $("footer div.wrap ul.fnb li:nth-child(2)").click(function(){
+                $("html,body").animate({scrollTop:c2},1000);
+                return false;
+            });  
+            var c3 =$("#portfolio").offset().top;
+            console.log(c3);
+            $("footer div.wrap ul.fnb li:nth-child(3)").click(function(){
+                $("html,body").animate({scrollTop:c3},1000);
+                return false;
+            });   
+            var c4 =$("#process").offset().top;
+            console.log(c4);
+            $("footer div.wrap ul.fnb li:nth-child(4)").click(function(){
+                $("html,body").animate({scrollTop:c4},1000);
+                return false;
+            });  
+            var c5 =$("#contact").offset().top;
+            console.log(c5);
+            $("footer div.wrap ul.fnb li:nth-child(5)").click(function(){
+                $("html,body").animate({scrollTop:c5},1000);
+                return false;
+            });  
             //top버튼 추가하기
             $('footer').prepend('<a href="#" class="top">Top</a>');
             $("footer a.top").click(function(){//문서 오픈시 한번만 실행된다. 
@@ -282,7 +313,7 @@
                     <div>
                         <h3 class="h3">알툴즈홈페이지</h3>
                         <figure>
-                            <img src="img/idesk.png" alt="알툴즈홈페이지">
+                            <img src="img/pf3.png" alt="알툴즈홈페이지">
                             <figcaption>작업내용보기</figcaption>
                         </figure>
                         <ul class="sub">
@@ -300,7 +331,7 @@
                                 </ul>
                             </li>
                             <li><strong class="bold">기여도</strong>90% (디자인, 퍼블리싱 및 테스트)</li>
-                            <li class="flex"><a href="https://github.com/eunjungkim1004/pf2"class="block b-medium rounded border1">깃허브 소스보기</a><a href="https://eunjungkim1004.github.io/pf2/"class="block b-medium green rounded">작품보기</a></li>
+                            <li class="flex"><a href="https://github.com/eunjungkim1004/pf3"class="block b-medium rounded border1">깃허브 소스보기</a><a href="https://github.com/eunjungkim1004/pf3/"class="block b-medium green rounded">작품보기</a></li>
                         </ul>
                     </div>
                 </li>
@@ -341,16 +372,16 @@
             <h2 class="h2 borderT center">Contact</h2>
             <p class="p15">웹디자인과 웹퍼블리싱 분야에서의 성장을 위해 노력하고 있습니다. <span class="block"></span>궁금한 사항이나 제안이 있으시면 연락 주시기 바랍니다.</p>
             <ul class="list">
-                <li><strong>이름(Name):</strong>김은정</li>
-                <li><strong>이메일(Email):</strong>ejkim811004@gmail.com</li>
-                <li><strong></strong>전화번호(Phone):</strong> 010-2246-0974</li>
-                <li><strong>주소(Address):</strong>경기도 성남시 수정구 </li>
+                <li><strong>Name </strong>김 은 정</li>
+                <li><strong>Email </strong>ejkim811004@gmail.com</li>
+                <li><strong>Phone </strong>010 - 2246 - 0974</li>
+                <li><strong>Address </strong>경기도 성남시 </li>
             </ul>
-            <a href="https://forms.gle/7P5rdaRdw2GGzUaD9" class="qna" target="_blank">문의사항 보내기</a>
+            <a href="https://forms.gle/ByKVb6kJzbpvWFc68" class="qna" target="_blank">문의사항 보내기</a>
             <ul class="sns flex">
                 <li><a href="" class="block">카카오톡</a></li>
                 <li><a href="" class="block">인스타그램</a></li>
-                <li><a href="" class="block">지메일</a></li>
+                <li><a href="mailto:ejkim811004@gmail.com">Send Email</a></li>
             </ul>
             <div class="sourcesite">
                 <h3 class="h4">My Source Site</h3>
