@@ -141,7 +141,7 @@ div#title div.wrap h2 {
   margin-bottom: 30px;
   animation-name:titleTextUp;
   animation-duration: 3s;
-  animation-timing-function: cubic-bezier(0,0,0,1,56);
+  animation-timing-function: cubic-bezier(0,0,1,56);
   animation-fill-mode: forwards;
   animation-direction: reverse;
 }
@@ -316,7 +316,7 @@ section::before {
   display: flex;
   margin-bottom: 15px;
 }
-#aboutme div.wrap ul.intro li:nth-child(2) p,{
+#aboutme div.wrap ul.intro li:nth-child(2) p{
   
 }
 #aboutme div.wrap ul.intro li p {
@@ -364,17 +364,12 @@ section::before {
 }
 #aboutme div.wrap ul.info li:nth-child(1) strong::before{
   background-image: url(../img/mail.svg);
-  scale: 130%;
 }
 #aboutme div.wrap ul.info li:nth-child(2) strong::before{
   background-image:url(../img/phone.svg);
 }
 #aboutme div.wrap ul.info li:nth-child(3) strong::before{
   background-image:url(../img/github.svg);
-}
-#aboutme div.wrap ul.info linth-child(3): strong {
-/*   background-image: url(../img/mail.svg); */
- 
 }
 /* skill */
 #skill{
@@ -785,7 +780,7 @@ section::before {
 }
 #portfolio div.wrap ul.list li ul.sub li ul {
   line-height: 1.5;
-  letter-spacing: 2;
+  letter-spacing: 2PX;
 }
 #portfolio div.wrap ul.list li ul.sub li ul li {
   
@@ -1015,7 +1010,6 @@ opacity: 0.6;
   height:120px;
 }
 #contact ul.src li:nth-child(5){
-  width: 
 }
 #contact ul.src li a {
   height: 100%;
@@ -1053,7 +1047,6 @@ opacity: 0.6;
 }
 #contact ul.src li:nth-child(5) a::before{
   background-image: url(../img/google2.svg);
-  scale: 170%;
 }
 #contact ul.src li:nth-child(6) a::before{
  background-image: url(../img/Canva.svg);
