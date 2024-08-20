@@ -141,7 +141,7 @@ div#title div.wrap h2 {
   margin-bottom: 30px;
   animation-name:titleTextUp;
   animation-duration: 3s;
-  animation-timing-function: cubic-bezier(0,0,1,56);
+  animation-timing-function: cubic-bezier(0,0,1,1);
   animation-fill-mode: forwards;
   animation-direction: reverse;
 }
