@@ -29,6 +29,12 @@ ACCUNIQ https://pageservice.github.io/pf1/
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left" style="white-space: pre-line; display: flex;">
+
+![pf1-3](https://github.com/user-attachments/assets/37daa459-ef54-4846-a57b-0865ebb8444b)
+![pf2](https://github.com/user-attachments/assets/0a4ca845-5e6a-47e5-823a-ff9aa71162eb)
+![pf3](https://github.com/user-attachments/assets/8efab30d-658a-4629-aec4-19cc02009a9f)
+![pf4](https://github.com/user-attachments/assets/63b72a7a-ae23-42e6-91a0-b342e5c97975)
+
     <img src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" />
     <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white"/> 
     <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40" /> 
