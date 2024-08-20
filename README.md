@@ -27,9 +27,6 @@ ACCUNIQ https://pageservice.github.io/pf1/
 ## 스크린샷 또는 데모(포트폴리오 웹사이트의 스크린샷을 추가)
 ![qqq](https://github.com/user-attachments/assets/e2eb1e75-1ee0-43ad-89ba-18edb7225aa8)
 
-
-
-
 <h3 align="left">Languages and Tools:</h3>
 <p align="left" style="white-space: pre-line; display: flex;">
     <img src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" />
